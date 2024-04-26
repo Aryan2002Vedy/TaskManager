@@ -19,7 +19,7 @@ const PORT = process.env.PORT || 5000
 const app = express()
 
 app.use(cors({
-    origin:["http://localhost:3000","http://localhost:3001","https://vedy-task-manager.netlify.app"],
+    origin:["http://localhost:3000","http://localhost:3001","https://vedy-task-manager.netlify.app","https://662b6c2897f7a69b9e82a5d5--vedy-task-manager.netlify.app"],
     methods:["GET","POST","PUT","DELETE"],
     credentials:true,
 }));
