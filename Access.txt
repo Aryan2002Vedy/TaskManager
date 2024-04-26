@@ -1,0 +1,3 @@
+admin:
+aryan@gmail.com
+123456
