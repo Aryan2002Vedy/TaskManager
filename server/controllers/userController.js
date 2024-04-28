@@ -68,7 +68,7 @@ export const loginUser = async (req, res) => {
 
       user.password = undefined;
 
-      res.status(200).json(user);
+      res.json(user);
     } else {
       return res
         .status(401)
